@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html.light {
+  background: white;
+  color: black;
+}
+
+html.dark {
+  background: #0f0f0f;
+  color: white;
+}
+
+html.glass {
+  background: linear-gradient(145deg, #0f0f0f, #1f1f1f);
+  color: white;
+}
