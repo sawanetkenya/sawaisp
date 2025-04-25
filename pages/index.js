@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import KPI from '@/components/KPI';
-import ThemeToggle from '@/components/ThemeToggle';
-import api from '@/lib/api';
+import KPI from '../components/KPI';
+import ThemeToggle from '../components/ThemeToggle';
+import api from '../lib/api';
 
 export default function Dashboard() {
   const [data, setData] = useState({
