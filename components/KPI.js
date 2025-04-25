@@ -1,15 +1,10 @@
 import React from 'react';
 
-type KPIProps = {
-  title: string;
-  value: string | number;
-};
-
-export default function KPI({ title, value }: KPIProps) {
+export default function KPI({ title, value }) {
   return (
-    <div className="bg-white/10 dark:bg-white/5 backdrop-blur rounded-2xl p-4 shadow hover:scale-[1.02] transition">
-      <h3 className="text-sm text-gray-400">{title}</h3>
-      <p className="text-2xl font-bold text-white">{value}</p>
+    <div className="rounded-xl bg-slate-800 p-4 text-white shadow-md w-full md:w-1/3">
+      <h2 className="text-sm text-slate-400">{title}</h2>
+      <p className="text-2xl font-semibold">{value}</p>
     </div>
   );
 }
